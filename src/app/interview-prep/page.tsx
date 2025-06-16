@@ -1,10 +1,15 @@
 import React from 'react'
+import Hero from "../../components/interview-prep/Hero"
+import FilterBar from "../../components/interview-prep/FilterBar"
+import ContentCards from "../../components/interview-prep/ContentCards"
 
 const InterviewPrep = () => {
   return (
-    <div>
-      Interview Prep
-    </div>
+    <>
+      <Hero/>
+      <FilterBar/>
+      <ContentCards/>
+    </>
   )
 }
 
