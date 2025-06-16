@@ -1,0 +1,30 @@
+{
+    "headerNav": [
+       {
+        "title": "Interview Prep",
+        "link": "/practice"
+       },
+       {
+        "title": "Learning Resources",
+        "link": "/learning-resources"
+       },
+       {
+        "title":  "Online Complier",
+        "link": "/online-complier"
+       }
+    ],
+    "footerNav": [
+        {
+        "title": "Privacy",
+        "link": "/privacy"
+       },
+       {
+        "title": "Terms",
+        "link": "/tearms"
+       },
+       {
+        "title":  "Contact",
+        "link": "/contact"
+       }
+    ]
+}

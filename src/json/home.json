@@ -1,0 +1,66 @@
+{
+     "features":[
+        {
+            "title": "Interview Prep",
+            "description": "Solve categorized questions across DSA, React, and System Design — tailored for your next tech interview.",
+            "linkText": "Go to Interview Prep →",
+            "linkPath": "/practice"
+        },
+        {
+            "title": "Learn by Doing",
+            "description": "Build real-world projects with guided resources, code snippets, and learning-by-building approach.",
+            "linkText": "Go to Learn Projects →",
+            "linkPath": "/learning-resources"
+        },
+        {
+            "title": "Online Complier",
+            "description": "Run JavaScript code instantly in-browser — perfect for quick experiments, tutorials, or interviews.",
+            "linkText": "Go to JS Compiler →",
+            "linkPath": "online-complier"
+        }
+    ],
+    "resources":[
+        {
+            "logoText": "W",
+            "title": "Web Development",
+            "description": "Build web applications using HTML, CSS, JavaScript, React and more.",
+            "linkText": "Explore Web Dev →",
+            "linkPath": "/learning-resources"
+        },
+        {
+            "logoText": "M",
+            "title": "Mobile Development",
+            "description": "Build mobile applications using Android, Flutter, React Native and more.",
+            "linkText": "Explore Mobile Dev →",
+            "linkPath": "/learning-resources"
+        },
+        {
+            "logoText": "G",
+            "title": "Game Development",
+            "description": "Build awesome video games. C#, PyGame, OpenGL, Unity and more.",
+            "linkText": "Explore Game Dev →",
+            "linkPath": "/learning-resources"
+        },
+        {
+            "logoText": "ML",
+            "title": "Machine Learning",
+            "description": "Learn how a machine learns. Python, NumPy, Pandas, SciKit, Tensorflow and more.",
+            "linkText": "Explore ML →",
+            "linkPath": "/learning-resources"
+        },
+        {
+            "logoText": "D",
+            "title": "DevOps & Tools",
+            "description": "Understand CI/CD, Docker, GitHub Actions, and more to improve workflow and productivity.",
+            "linkText": "Explore DevOps →",
+            "linkPath": "/learning-resources"
+        },
+        {
+            "logoText": "OS",
+            "title": "Open Source Projects",
+            "description": "Explore beginner-friendly open-source repositories to contribute and learn collaboratively.",
+            "linkText": "Explore Open Source →",
+            "linkPath": "/learning-resources"
+        }
+    ]
+}
