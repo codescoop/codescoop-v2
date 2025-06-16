@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "../components/Header"
+import Footer from "../components/Footer"
 import "./globals.css";
 
 const inter = Inter({
@@ -21,9 +22,10 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
 
       <body className={`bg-white text-gray-800 ${inter.className} font-sans antialiased`}>
         <Header />
-        <main>
+        <main className="min-h-[calc(100vh-4rem-4rem)]">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
