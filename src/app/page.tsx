@@ -2,6 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <div>CodeScoop</div>
+   <div className="pt-16">
+      Home Page
+    </div>
   );
 }
