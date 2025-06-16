@@ -19,7 +19,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
         <link rel="icon" href="/logos/favicon.ico" sizes="any" />
       </head>
 
-      <body className={`${inter.className}`}>
+      <body className={`bg-white text-gray-800 ${inter.className} font-sans antialiased`}>
         <Header />
         <main>
           {children}
