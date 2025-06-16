@@ -1,6 +1,10 @@
 {
     "headerNav": [
        {
+        "title": "Home",
+        "link": "/"
+       },
+       {
         "title": "Interview Prep",
         "link": "/interview-prep"
        },
