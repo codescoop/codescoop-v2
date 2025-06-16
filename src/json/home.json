@@ -1,18 +1,21 @@
 {
      "features":[
         {
+            "iconName": "CapIcon",
             "title": "Interview Prep",
             "description": "Solve categorized questions across DSA, React, and System Design — tailored for your next tech interview.",
             "linkText": "Go to Interview Prep →",
             "linkPath": "/interview-prep"
         },
         {
+            "iconName": "SmallWindowIcon",
             "title": "Learn by Doing",
             "description": "Build real-world projects with guided resources, code snippets, and learning-by-building approach.",
             "linkText": "Go to Learn Projects →",
             "linkPath": "/learning-resources"
         },
         {
+            "iconName": "VerticalArrowIcon",
             "title": "Online Complier",
             "description": "Run JavaScript code instantly in-browser — perfect for quick experiments, tutorials, or interviews.",
             "linkText": "Go to JS Compiler →",
