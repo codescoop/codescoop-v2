@@ -12,9 +12,11 @@ const Feature = () => {
   return (
     <section id="features" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4">
-        <h3 className="text-3xl font-bold text-center text-gray-800 mb-12">Explore the Features</h3>
-        <div className="grid md:grid-cols-3 gap-8">
+        <h3 className="text-3xl font-bold text-center text-gray-800 mb-12">
+          Explore the Features
+        </h3>
 
+        <div className="grid md:grid-cols-3 gap-8">
           { defaultHeroData?.features?.map((feature, id) => {
               console.log("feature?.iconName: ", feature?.iconName)
               console.log("icons:", icons)
@@ -32,9 +34,15 @@ const Feature = () => {
                   <div className="mb-4 flex justify-center">
                     <SvgIcon />
                   </div>
-                  <h4 className="text-xl font-semibold text-blue-600 mb-2">{feature?.title}</h4>
-                  <p className="text-gray-600">{feature?.description}</p>
-                  <span className="inline-flex items-center mt-4 text-blue-600 font-medium">{feature?.linkText}</span>
+                  <h4 className="text-xl font-semibold text-blue-600 mb-2">
+                    {feature?.title}
+                  </h4>
+                  <p className="text-gray-600">
+                    {feature?.description}
+                  </p>
+                  <span className="inline-flex items-center mt-4 text-blue-600 font-medium">
+                    {feature?.linkText}
+                  </span>
                 </Link>
               )
             })
