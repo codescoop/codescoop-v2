@@ -15,30 +15,29 @@ const Feature = () => {
         <h3 className="text-3xl font-bold text-center text-gray-800 mb-12">Explore the Features</h3>
         <div className="grid md:grid-cols-3 gap-8">
 
-          {defaultHeroData?.features?.map((feature, id) => {
-            console.log("feature?.iconName: ",feature?.iconName)
-            console.log("icons:", icons)
-            
-            const SvgIcon2 = icons[feature?.iconName]
-            const iconName = feature?.iconName
-            const SvgIcon = icons[iconName]
-            console.log("SvgIcon", SvgIcon)
-            return (
-              <Link
-                key={id}
-                href={feature?.linkPath}
-                className="block bg-gray-50 rounded-2xl shadow-md hover:shadow-lg transition p-6 text-center"
-              >
-                <div className="mb-4 flex justify-center">
-                  <SvgIcon/>
-                </div>
-                <h4 className="text-xl font-semibold text-blue-600 mb-2">{feature?.title}</h4>
-                <p className="text-gray-600">{feature?.description}</p>
-                <span className="inline-flex items-center mt-4 text-blue-600 font-medium">{feature?.linkText}</span>
-              </Link>
-            )
-          })
+          { defaultHeroData?.features?.map((feature, id) => {
+              console.log("feature?.iconName: ", feature?.iconName)
+              console.log("icons:", icons)
 
+              const SvgIcon2 = icons[feature?.iconName]
+              const iconName = feature?.iconName
+              const SvgIcon = icons[iconName]
+              console.log("SvgIcon", SvgIcon)
+              return (
+                <Link
+                  key={id}
+                  href={feature?.linkPath}
+                  className="block bg-gray-50 rounded-2xl shadow-md hover:shadow-lg transition p-6 text-center"
+                >
+                  <div className="mb-4 flex justify-center">
+                    <SvgIcon />
+                  </div>
+                  <h4 className="text-xl font-semibold text-blue-600 mb-2">{feature?.title}</h4>
+                  <p className="text-gray-600">{feature?.description}</p>
+                  <span className="inline-flex items-center mt-4 text-blue-600 font-medium">{feature?.linkText}</span>
+                </Link>
+              )
+            })
           }
 
           {/* Interview Prep */}
