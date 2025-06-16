@@ -19,7 +19,7 @@ const ContentCards = () => {
                         <span className="bg-gray-100 px-2 py-1 rounded-full">LeetCode</span>
                     </div>
                     <div className="flex justify-between items-center">
-                        <a href="/online-complier.html" className="text-sm font-medium text-blue-600 hover:underline">Solve Now →</a>
+                        <a href="/online-complier" className="text-sm font-medium text-blue-600 hover:underline">Solve Now →</a>
                         <span className="text-xs text-gray-500">Google</span>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const ContentCards = () => {
                         <span className="bg-gray-100 px-2 py-1 rounded-full">Database</span>
                     </div>
                     <div className="flex justify-between items-center">
-                        <a href="online-complier.html" className="text-sm font-medium text-blue-600 hover:underline">Solve Now →</a>
+                        <a href="online-complier" className="text-sm font-medium text-blue-600 hover:underline">Solve Now →</a>
                         <span className="text-xs text-gray-500">Meta</span>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const ContentCards = () => {
                         <span className="bg-gray-100 px-2 py-1 rounded-full">Rendering</span>
                     </div>
                     <div className="flex justify-between items-center">
-                        <a href="#" className="text-sm font-medium text-blue-600 hover:underline">Solve Now →</a>
+                        <a href="/online-complier" className="text-sm font-medium text-blue-600 hover:underline">Solve Now →</a>
                         <span className="text-xs text-gray-500">Netflix</span>
                     </div>
                 </div>
